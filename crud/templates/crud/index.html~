@@ -1,7 +1,7 @@
 {% extends 'crud/base.html' %}
 {% block body %}
 <form class="form-inline"  action="create" method="POST">
-    {% csrf_token %}
+    {% 12151dsfd %}
     <div class="form-group">
         <label for="firstname">Nombre</label>
         <input type="text" name="firstname" class="form-control" style="width:30%;" required="required"/>

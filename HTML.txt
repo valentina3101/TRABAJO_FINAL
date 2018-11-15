@@ -1,0 +1,1000 @@
+  538  ls
+  539  cat trabajopracticoterminado
+  540  cat trabajopracticoterminado.txt
+  541  cd ..
+  542  sudo service mysql stop
+  543  sudo mkdir /var/run/mysql
+  544  ls
+  545  sudo chown mysql /var/run/mysqld
+  546  sudo chown mysqld_safe --skip-grant-tables &
+  547  sudo mysqld_safe --skip-grant-tables &
+  548  sudo mysql -u root mysql
+  549  ps -ef
+  550  sudo kill -9 32289
+  551  sudo /etc/init.d/mysql start
+  552  sudo mysql -u root
+  553  12345
+  554  sudo mysql -u root -p
+  555  ls
+  556  su mlopez
+  557  ls
+  558  id mlopez
+  559  touch /tmp/file_mlopez.txt
+  560  sudo touch /tmp/file_mlopez.txt
+  561  ls
+  562  pwd
+  563  cd /tmp/file_mlopez.txt
+  564  finger mlopez
+  565  cat file_mlopez.txt
+  566  cd tmp
+  567  sudo tmp
+  568  ls -l
+  569  touch /tmp/file_mlopez.txt
+  570  sudo touch /tmp/file_mlopez.txt
+  571  ls
+  572  ls /tmp
+  573  sudo chmod mlopez file_mlopez.txt
+  574  sudo chown mlopez /tmp/file_mlopez.txt/
+  575  sudo chown mlopez /tmp/file_mlopez.txt
+  576  ls
+  577  ls /tmp
+  578  ls -l/tmp
+  579  ls -l /tmp
+  580  sudo chgrp mlopez/tmp/file_mlopez.txt
+  581  sudo chgrp mlopez /tmp/file_mlopez.txt
+  582  ls -l /tmp
+  583  python
+  584  sudo apt-get install python-pygame
+  585  python
+  586  #!/usr/bin/env python
+  587  # -*- coding: utf-8 -*-
+  588  # Escrito por Daniel Fuentes B.
+  589  # Licencia: X11/MIT license http://www.opensource.org/licenses/mit-license.php
+  590  # https://www.pythonmania.net/es/2010/03/25/tutorial-pygame-2-ventana-e-imagenes/
+  591  # ---------------------------
+  592  # Importacion de los módulos
+  593  # ---------------------------
+  594  import pygame
+  595  from pygame.locals import *
+  596  import sys
+  597  # -----------
+  598  # Constantes
+  599  # -----------
+  600  SCREEN_WIDTH = 640
+  601  SCREEN_HEIGHT = 480
+  602  # ------------------------------
+  603  # Clases y Funciones utilizadas
+  604  # ------------------------------
+  605  # Funcion principal del juego
+  606  # ------------------------------
+  607  def main():
+  608  if event.type == pygame.QUIT:
+  609  python
+  610  #!/usr/bin/env python
+  611  # -*- coding: utf-8 -*-
+  612  # Escrito por Daniel Fuentes B.
+  613  # Licencia: X11/MIT license http://www.opensource.org/licenses/mit-license.php
+  614  # https://www.pythonmania.net/es/2010/03/25/tutorial-pygame-2-ventana-e-imagenes/
+  615  # ---------------------------
+  616  # Importacion de los módulos
+  617  # ---------------------------
+  618  import pygame
+  619  from pygame.locals import *
+  620  import sys
+  621  # -----------
+  622  # Constantes
+  623  # -----------
+  624  SCREEN_WIDTH = 640
+  625  SCREEN_HEIGHT = 480
+  626  # ------------------------------
+  627  # Clases y Funciones utilizadas
+  628  # ------------------------------
+  629  # Funcion principal del juego
+  630  # ------------------------------
+  631  def main():
+  632  pygame.init() screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+  633  pygame.display.set_caption("tutorial pygame parte 2")
+  634  #cargamos el fondo y una imagen (se crea objetos "Surface")
+  635  fondo = pygame.image.load("fondo.jpg").convert()
+  636  tux = pygame.image.load("tux.png").convert_alpha()
+  637  #Indicamos la posicion de las "Surface" sobre la ventana
+  638  screen.blit(fondo, (0, 0))
+  639  screen.blit(tux, (550, 200))
+  640  # se muestran los cambios en pantalla
+  641  pygame.display.flip() while True: t in pygame.event.get():
+  642  if event.type == pygame.QUIT:; ame__ == "__main__":
+  643  python
+  644  pwd
+  645  ls
+  646  cd Escritorio
+  647  ls
+  648  python ventana.py
+  649  python punto.py
+  650  python punto3.py
+  651  python punto.py
+  652  pwd
+  653  cd Escritorio
+  654  ls
+  655  python punto.py
+  656  history >> ultimaclasepractica.txt
+  657  sudo apt-get install vlc
+  658  sudo apt-get purge
+  659  sudo apt-get purge vlc
+  660  sudo apt-get update
+  661  pwd
+  662  ls -l
+  663  cd Escritorio
+  664  ls -l
+  665  sudo dpkg -i smplayer_0.8.6-2_i386.deb
+  666  sudo  aptitude search smplayer
+  667  sudo apt-get purge smplayer
+  668  sudo add mlopez
+  669  sudo adduser mlopez
+  670  grep mlopez /etc/passwd
+  671  grep mlopez /etc/group 
+  672  grep mlopez /etc/shadow
+  673  sudo grep mlopez /etc/shadow
+  674  sudo usermod -s /bin/false  mlopez
+  675  su mlopez
+  676  usermod --help
+  677  sudo usermod -s /bin/bash  mlopez
+  678  su mlopez
+  679  finger --help
+  680  finger mlopez
+  681  cat /etc/passwd
+  682  finger segundo18
+  683  finger verano2019
+  684  finger tercero19
+  685  sudo usermod -c “Nuevo nombre completo” usuario
+  686  sudo usermod -c “Juan Manuel Lopez” mlopez
+  687  finger mlopez
+  688  sudo usermod -c “Juan Manuel hghghjg” mlopez
+  689  finger mlopez
+  690  sudo usermod -c, “Juan Manuel hghghjg” mlopez
+  691  history
+  692  sudo usermod -c "Juan Manuel Lopez" mlopez
+  693  sudo usermod -c "Juan Manuel Lope" mlopez
+  694  finger mlopez
+  695  usermod --help
+  696  sudo usermod -G video, mail, cdrom mlopez
+  697  sudo usermod -G video,mail,cdrom mlopez
+  698  finger mlopez
+  699  id mlopez
+  700  cd /tmp
+  701  ls
+  702  touch file_mlopez
+  703  ls -l
+  704  sudo chown mlopez /tmp/file_lopez
+  705  sudo chown mlopez /tmp/file_mlopez
+  706  ls -l
+  707  sudo chgrp mlopez /tmp/file_mlopez
+  708  ls -l
+  709  sudo chmod 766 /tmp/file_mlopez
+  710  ls -l
+  711  remove --help
+  712  remove __help
+  713  rm --help
+  714  rm /tmp/file_mlopez
+  715  sudo rm /tmp/file_mlopez
+  716  ls -l
+  717  lista = [1, 2, 3]
+  718  python
+  719  sudo aptitude search apache2
+  720  sudo apt install php5 libapache2-mod-php5 php5-common
+  721  pwd
+  722  sudo apt install php5 libapache2-mod-php5 php5-common
+  723  sudo apt install mysql-server mysql-client php5-mysql
+  724  cd Escritorio
+  725  ls
+  726  cd ..
+  727  cd Descarga
+  728  cd Descargas
+  729  ls
+  730  sudo cp wordpress-4.9.5-es_AR.tar.gz /var/www/html/
+  731  cd ..
+  732  cd /var/www/html/
+  733  ls
+  734  tar -cvzf wordpress-4.9.5-es_AR.tar.gz
+  735  tar -xvzf wordpress-4.9.5-es_AR.tar.gz
+  736  sudo tar -xvzf wordpress-4.9.5-es_AR.tar.gz
+  737  cd ..
+  738  pwd
+  739  ls
+  740  cd home
+  741  ls
+  742  ls /etc/php5/apache2/php.ini
+  743  sudo gedit /etc/php5/apache2/php.ini
+  744  sudo gedit /etc/php5/cli/php.ini
+  745  sudo apt install php5-mysqlnd-ms
+  746  sudo service apache2 restart
+  747  sudo service mysql restart
+  748  mysql -u root -p
+  749  sudo chmod 777/var/www/html/wordpress/ -R
+  750  sudo chmod 777 /var/www/html/wordpress/ -R
+  751  hystori
+  752  history
+  753  cd Descargas
+  754  cp with-theme /var/www/html/wordpress/wp-content/themes/
+  755  cd ..
+  756  cd /var/www/html/wordpress/wp-content/themes/
+  757  ls
+  758  cd Descargas
+  759  cd ..
+  760  pwd
+  761  cd Descargas
+  762  ls
+  763  cd home
+  764  ls
+  765  cd Descargas
+  766  ls
+  767  cd administrador
+  768  ls
+  769  cd Descargas
+  770  cp capri-lite.1.1.21.zip /var/www/html/wordpress/wp-content/themes/
+  771  cd Descargas
+  772  cp capri-lite.1.1.21.zip /var/www/html/wordpre/wp-content/themes/
+  773  cp capri-lite.1.1.21.zip /var/www/html/wordpress/wp-content/themes/
+  774  cd /var/www/html/wordpress/wp-content/themes/
+  775  ls
+  776  tar -unzip capri-lite.1.1.21.zip 
+  777  sudo tar -unzip capri-lite.1.1.21.zip 
+  778  unzip capri-lite.1.1.21.zip 
+  779  python
+  780  history >> history.txt
+  781  ls -R &
+  782  ls -R / l less
+  783  ls -R /  less
+  784  ls -R / | less
+  785  ls -R /ect | grep .conp$
+  786  ls -R /ect | grep .conf$
+  787  ls -R / ect | grep .conf$
+  788  ps ax
+  789  ps ax | grep apache2
+  790  ps ax | grep apache2 | grep -v grep
+  791  yes &
+  792  top &
+  793  jobs 
+  794  yes > /dev/null
+  795  yes > /dev/null &
+  796  jobs
+  797  fg % 1
+  798  fg %2
+  799  jobs 
+  800  bg %1
+  801  bg %2
+  802  nouhp 
+  803  nohup
+  804  yes > /dev/null &
+  805  yes
+  806  yes > /dev/null &
+  807  yes
+  808  yes > /dev/null &
+  809  ps
+  810  top
+  811  sudo top 
+  812  sudo nice --10 updatedb
+  813  159753
+  814  sudo 3624 --10 updatedb
+  815  sudo 3624 -10 updatedb
+  816  yes > /dev/nell &
+  817  yes > /dev/null &
+  818  ps
+  819  top
+  820  sudo nice --10 updatedb
+  821  sudo nice --20 updatedb
+  822  sudo top nice --10 updatedb 3860
+  823  sudo top nice --10 updatedb 
+  824  sudo top NICE --10 updatedb 
+  825  sudo nice 3860 --10 updatebd
+  826  sudo nice --20 updatedb
+  827  sudo top  --20 updatedb
+  828  sudo top nice  --20 updatedb
+  829  top
+  830  yes
+  831  yes > /dev/null &
+  832  ps
+  833  top
+  834  yes 
+  835  yes > /dev/null &
+  836  ps
+  837  top
+  838  yes 
+  839  yes > /dev/null %
+  840  yes > /dev/null &
+  841  ps
+  842  top
+  843  yes > /dev/null &
+  844  jobs
+  845  fg %2
+  846  yes &
+  847  yes 
+  848  yes > /dev/null &
+  849  ps
+  850  sudo top
+  851  yes > /dev/null &
+  852  jobs
+  853  fg %2
+  854  top &
+  855  bg %2
+  856  yes > /dev/null &
+  857  ps
+  858  top
+  859  jobs
+  860  yes > /dev/null &
+  861  ps
+  862  sudo top
+  863  yes > /dev/null &
+  864  jobs
+  865  fg %2
+  866  bg %2
+  867  top
+  868  kill -9 4306 
+  869  top
+  870  killall -9 4313
+  871  killall 4313
+  872  top
+  873  killall -9 4313
+  874  killall yes
+  875  top
+  876  less listado.txt 
+  877  less "listado.txt" 
+  878  ls
+  879  less "listado.txt" > ls
+  880  less "listado.txt"  ls
+  881  echo "listado" > ls -l/.txt
+  882  less listado
+  883  less listado.txt
+  884  less 
+  885  less ls -l/
+  886  echo "listado" > ls -l/ 
+  887  cat listado.txt > ls -l/
+  888  echo "listado.txt" > ls -l/
+  889  cat listado.txt | more
+  890  echo "listado.txt" > ls -l/
+  891  ls
+  892  touch 
+  893  touch listado.txt 
+  894  lees  listado.txt
+  895  less  listado.txt
+  896  history
+  897  ls -l/ > listado.txt
+  898  ls -l > listado.txt
+  899  cat listado.txt | more
+  900  cat listado.txt | less
+  901  python
+  902  sudo setxkbmap -layout 'es,es' -model pc105
+  903  python
+  904  history >> RICARDO.txt
+  905  pwd
+  906  sudo apt install apache2
+  907  sudo apt install php5 libapache2-mod-hp5 php5-common
+  908  sudo apt install php5 libapache2-mod-php5 php5-common
+  909  /var/www/html/
+  910  history>>history.txt
+  911  python 3
+  912  python3
+  913  sudo pip3 install nose
+  914  pwd
+  915  cd Escritorio
+  916  ls
+  917  cd nonelab
+  918  ls
+  919  nosetests tests/test.py
+  920  history>>history.txt
+  921  pwd
+  922  ls
+  923  python
+  924  sudo install python3
+  925  sudo apt-get install python3
+  926  sudo apt-get install pythn-psutil
+  927  sudo apt-get install python-psutil
+  928  import psutil
+  929  python3
+  930  sudo apt-get install python3
+  931  sudo apt-get install python-psutil
+  932  impot psutil
+  933  import psutil
+  934  psutil.pids()
+  935  top
+  936  sudo apt-get install python-psutil
+  937  python3
+  938  sudo pip3 install psutil
+  939  import psutil
+  940  python3
+  941  sudo apt-get install geany
+  942  sudo apt update
+  943  sudo setxkbmap -layout 'es,es' -model pc105
+  944  python3 psutilll.py
+  945  top
+  946  python3 psutilll.py
+  947  python3 ppp.py
+  948  top
+  949  python3 ppp.py
+  950  2
+  951  python3 ppp.py
+  952  python3
+  953  ls
+  954  cd sistemaOPerativo
+  955  cd sistemaOPERATIVO
+  956  cd sistemaOperativo
+  957  ls
+  958  pwd
+  959  exit()
+  960  tar -cvzf sistemaOperativo.tar.gz /home/segundo18/sistemaOperativo
+  961  ls
+  962  pwd
+  963  zcat /home/segundo18/sistemaOperativo.tar.gz
+  964  ls
+  965  cd sistemaOperativo
+  966  l
+  967  ls
+  968  pwd
+  969  cd Escritorio
+  970  cd /Escritorio
+  971  cd /Descargas
+  972  rm /home/segundo18/sistemaOPerativo
+  973  rm /home/segundo18/sistemaOperativo
+  974  mv /home/segundo18/sistemaOperativo
+  975  rm -r /home/segundo18/sistemaOperativo
+  976  pwd
+  977  ls
+  978  tar -xvzf sistemaOperativo.tar.gz
+  979  ls
+  980  tar -xvzf sistemaOperativo.tar.gz
+  981  history >> VACACIONES.txt
+  982  sudo apt install apache2
+  983  sudo apt install php5 libapache2-mod-php5 php5-common
+  984  sudo apt install mysql-server mysql-client php5-mysql
+  985  ls
+  986  cd Descargas
+  987  ls
+  988  cp wordpress-4.9.5-es_AR.tar.gz /var/www/html
+  989  sudo cp wordpress-4.9.5-es_AR.tar.gz /var/www/html
+  990  cd /var/www/html
+  991  ls
+  992  history
+  993  pwd
+  994  ls
+  995  ls -la
+  996  cd home/
+  997  ls
+  998  cd segundo18/
+  999  ls
+ 1000  cd /home
+ 1001  l
+ 1002  cd segundo18
+ 1003  l
+ 1004  l
+ 1005  l
+ 1006  bzcat /home/segundo18/sistemaOperativo.tar.bz2
+ 1007  LS
+ 1008  ls
+ 1009  cd Descargas
+ 1010  ls
+ 1011  pwd
+ 1012  mv /home/segundo18/Descargas/wordpress-4.9.5-es_AR.tar.gz /var/www/html
+ 1013  cd var/www/html
+ 1014  cd /var/www/html
+ 1015  ls
+ 1016  tar -xvzf wordpress-4.9.5-es_AR.tar.gz
+ 1017  sudo tar -xvzf wordpress-4.9.5-es_AR.tar.gz
+ 1018  mysql -u root -p
+ 1019  ls
+ 1020  rm -r wordpress
+ 1021  sudo rm -r wordpress
+ 1022  ls
+ 1023  sudo rm  wordpress.html
+ 1024  sudo rm  index.html
+ 1025  ls
+ 1026  sudo tar -xvzf wordpress-4.9.5-es_AR.tar.gz
+ 1027  mysql -u root -p
+ 1028  sudo mysql -u root -p
+ 1029  sudo apt psutil
+ 1030  sudo apt-get python psutil
+ 1031  pip install psutil
+ 1032  import psutil
+ 1033  pip install psutil
+ 1034  import psutil
+ 1035  python
+ 1036  pip python3
+ 1037  pip3 install python3
+ 1038  pip3 psutil
+ 1039  import psutil
+ 1040  pip install upgrade pip
+ 1041  sudo pip3 install 
+ 1042  sudo pip3 install psutil
+ 1043  import psutil
+ 1044  cd psutil
+ 1045  pip3 install psutil
+ 1046  sudo apt-get update
+ 1047  sudo pip3 install psutil
+ 1048  sudo install psutil
+ 1049  sudo pip3 install psutil
+ 1050  python3
+ 1051  python
+ 1052  KeyboardInterrupt
+ 1053  >>> numero = [-25, -10, -7, -3, 2, 4, 8, 10]
+ 1054  >>> objetivo = 0
+ 1055  >>> base = 0
+ 1056  >>> num_sig = 1
+ 1057  >>> num_sig_sig = 2
+ 1058  >>> debug = len(numero)-1
+ 1059  >>> while base != len(numero)-1:
+ 1060  ...     for g in range(num_sig, len(numero)):
+ 1061  ...             for t in range(num_sig_sig, len(numero)):
+ 1062  ...                     if numero[base] + numero[g] + numero[t] == objetivo:
+ 1063  ...                             print base, g, num_sig_sig
+ 1064  ...                             print numero[base], numero[g], numero[t]
+ 1065  ... 
+ 1066  )
+ 1067  python
+ 1068  KeyboardInterrupt
+ 1069  >>> numero = [-25, -10, -7, -3, 2, 4, 8, 10]
+ 1070  >>> objetivo = 0
+ 1071  >>> base = 0
+ 1072  >>> num_sig = 1
+ 1073  >>> num_sig_sig = 2
+ 1074  >>> debug = len(numero)-1
+ 1075  >>> while base != len(numero)-1:
+ 1076  ...     for g in range(num_sig, len(numero)):
+ 1077  ...             for t in range(num_sig_sig, len(numero)):
+ 1078  ...                     if numero[base] + numero[g] + numero[t] == objetivo:
+ 1079  ...                             print base, g, num_sig_sig
+ 1080  ...                             print numero[base], numero[g], numero[t]
+ 1081  ... 
+ 1082  )
+ 1083  python
+ 1084  KeyboardInterrupt
+ 1085  >>> numero = [-25, -10, -7, -3, 2, 4, 8, 10]
+ 1086  >>> objetivo = 0
+ 1087  >>> base = 0
+ 1088  >>> num_sig = 1
+ 1089  >>> num_sig_sig = 2
+ 1090  >>> debug = len(numero)-1
+ 1091  >>> while base != len(numero)-1:
+ 1092  ...     for g in range(num_sig, len(numero)):
+ 1093  ...             for t in range(num_sig_sig, len(numero)):
+ 1094  ...                     if numero[base] + numero[g] + numero[t] == objetivo:
+ 1095  ...                             print base, g, num_sig_sig
+ 1096  ...                             print numero[base], numero[g], numero[t]
+ 1097  ... 
+ 1098  )
+ 1099  python
+ 1100  numero = [-25, -10, -7, -3, 2, 4, 8, 10]
+ 1101  obj = 0
+ 1102  limite = len(numero)
+ 1103  base = 0
+ 1104  sig = 1
+ 1105  sig_sig = 2
+ 1106  for  b in range(base, limite-2):
+ 1107  for s in range(sig, limite-1):
+ 1108  for ss in range(sig_sig, limite):
+ 1109  print"DEBUG: BASE:",b "s: ",s "ss:", ss
+ 1110  if numero[b] + numero[s] + numero[ss] == obj:; t numero[b], numero[s], numero[ss]; 
+ 1111  python
+ 1112  pip install notebook
+ 1113  jupyter-notebook
+ 1114  sudo apt-get install jupyter
+ 1115  install pip3
+ 1116  sudo apt-get install pip3
+ 1117  conda install jupyter-notebook
+ 1118  conda install jupyter-notebookssudo
+ 1119  sudo pip3 install jupyter
+ 1120  mkdir jupyter
+ 1121  cd jupyter
+ 1122  jupyter notebook
+ 1123  mkdir jupyter
+ 1124  cd jupyter
+ 1125  jupyter notebook
+ 1126  sudo pip3 install --upgrade pip
+ 1127  pip install --upgrade pip' command
+ 1128  sudo pip3 install --upgrade pip
+ 1129  cd jupyter
+ 1130  jupyter notebook
+ 1131  sudo pip3 install --upgrade pip
+ 1132  cd jupyter
+ 1133  jupyter notebook
+ 1134  sudo pip3 install numpy
+ 1135  sudo pip3 install matplotlib
+ 1136  cd jupyter
+ 1137  jupyter notebook
+ 1138  sudo pip install --upgrade jupyter
+ 1139  cd jupyter
+ 1140  jupyter notebook
+ 1141  import python
+ 1142  python -V
+ 1143  python
+ 1144  cd jupyter
+ 1145  jupyter notebook
+ 1146  cd jupyter
+ 1147  jupyter notebook
+ 1148  history
+ 1149  sudo apt-get install postgresql
+ 1150  ls -l
+ 1151  pwd
+ 1152  cd Escritorio
+ 1153  ls
+ 1154  sudo dpkg -i odoo_9.0c.latest_all.deb
+ 1155  sudo apt-get update
+ 1156  sudo dpkg -i odoo_9.0c.latest_all.deb
+ 1157  sudo apt-get -f install
+ 1158  sudo su postgres
+ 1159  cd /etc/odoo
+ 1160  la
+ 1161  ls
+ 1162  sudo touch odoo.conf
+ 1163  ls
+ 1164  sudo cat Geany odoo.conf
+ 1165  sudo Geany odoo.conf
+ 1166  sudo Geany|odoo.conf
+ 1167  sudo cat odoo.conf|Geany
+ 1168  sudo cat odoo.conf|geany
+ 1169  sudo geany odoo.conf
+ 1170  sudo cat odoo.conf
+ 1171  sudo ls /etc/init.d
+ 1172  sudo systemctl restart odoo
+ 1173  sudo ls /etc/init.d
+ 1174  sudo /etc/init.d/postgresql restart
+ 1175  sudo /etc/init.d/odoo restart
+ 1176  python3
+ 1177  sudo pip3 install numpy
+ 1178  sudo pip3 install matplotlib
+ 1179  python3
+ 1180  sudo pip3 install jupyter
+ 1181  cd Escritorio
+ 1182  mkdir jupyter
+ 1183  cd jupyter
+ 1184  jupyter notebook
+ 1185  python
+ 1186  mkdir djangogirls
+ 1187  cd djangogirls
+ 1188  sudo apt install python-virtualenv
+ 1189  virtualenv --python=python3.4 myvenv
+ 1190  sudo apt install tree
+ 1191  ~/djangogirls$ . myvenv/bin/activate
+ 1192  sudo ~/djangogirls$ . myvenv/bin/activate
+ 1193  . myvenv/bin/activate
+ 1194  pip install django==1.8
+ 1195  ~/djangogirls$ django-admin startproject mysite .
+ 1196  django-admin startproject mysite .
+ 1197  cd mysite
+ 1198  tree
+ 1199  cd ..
+ 1200  tree
+ 1201  cd mysite
+ 1202  tree
+ 1203  mysite/settings.py
+ 1204  settings.py
+ 1205  cd
+ 1206  cd ~/djangogirls
+ 1207  python manage.py migrate
+ 1208  python manage.py runserver
+ 1209  python manage.py startapp blog
+ 1210  tree
+ 1211  python manage.py startapp blog
+ 1212  cd mysite/settings.py
+ 1213  mysite/settings.py
+ 1214  cd mysite
+ 1215  cd settings.py
+ 1216  cd INSTALLED_APPS
+ 1217  ls
+ 1218  mysite/settings.py.
+ 1219  python manage.py startapp blog
+ 1220  mysite/settings.py
+ 1221  source myvenv/bin/activate
+ 1222  cd
+ 1223  cd ~/djangogirls
+ 1224  python manage.py makemigrations blog
+ 1225  source myvenv/bin/activate
+ 1226  sudo myvenv/bin/activate
+ 1227  sudo  source myvenv/bin/activate
+ 1228  sudo source myvenv/bin/activate
+ 1229  sudo apt-get install python-virtualenv
+ 1230  python3 -m venv myvenv
+ 1231  sudo python3 -m venv myvenv
+ 1232  virtualenv --python=python3.4 myvenv
+ 1233  source myvenv/bin/activate
+ 1234  mkdir djangogirls
+ 1235  mysite/settings.py
+ 1236  python manage.py runserver
+ 1237  python manage.py migrate
+ 1238  cd Descarga
+ 1239  cd Descargas
+ 1240  ls
+ 1241  cd djangogirls
+ 1242  cd 
+ 1243  cd Carpeta personal
+ 1244  cd Descargas
+ 1245  cd djangogirls
+ 1246  python manage.py migrate
+ 1247  python manage.py runserver
+ 1248  cd django
+ 1249  cd
+ 1250  cd ~/djangogirls
+ 1251  ~/djangogirls
+ 1252  cd Descargas
+ 1253  cd ~/djangogirls
+ 1254  ~/djangogirls
+ 1255  source myvenv/bin/activate
+ 1256  ~/djangogirls
+ 1257  cd djangogirls
+ 1258  django-admin startproject mysite
+ 1259  python manage.py runserver
+ 1260  python manage.py migrate
+ 1261  python3 -m venv myvenv
+ 1262  apt-get install python3-venv
+ 1263  sudo apt-get install python3-venv
+ 1264  sudo apt-get install python-virtualenv
+ 1265  python3 -m venv myvenv
+ 1266  sudo apt-get install python3-venv
+ 1267  virtualenv --python=python3.4 myvenv
+ 1268  sudo apt-get install pip3
+ 1269  source myvenv/bin/activate
+ 1270  mkdir djangogirls
+ 1271  mysite/settings.py
+ 1272  cd djangogirls
+ 1273  python3 -m venv myvenv
+ 1274  apt-get install ython3-venv
+ 1275  python3 -m venv myvenv
+ 1276  sudo apt install python-virtualenv
+ 1277  virtualenv --python=python3.4 myvenv
+ 1278  . myvenv/bin/activate
+ 1279  pip install django==1.8
+ 1280  django-admin startproject mysite .
+ 1281  python manage.py migrate
+ 1282  python manage.py runserver
+ 1283  cd
+ 1284  sudo apt install python3.4
+ 1285  python3 -m venv myvenv
+ 1286  rm djangogirls/ -rf
+ 1287  sudo apt install git
+ 1288  git remote add origin https://github.com/<your-github-username>/My-firsts-Blog.git
+ 1289  git remote add origin https://github.com/<your-github-username>/my-firts-blog.git
+ 1290  mkdir djangogirls
+ 1291  cd djangogirls
+ 1292  python3 -m venv myvenv
+ 1293  apt-get install python3-venv
+ 1294  sudo apt-get install python3-venv
+ 1295  cd
+ 1296  sudo apt-get install python3-venv
+ 1297  cd djangogirls
+ 1298  sudo apt install python-virtualenv
+ 1299  virtualenv --python=python3.4 myvenv
+ 1300  source myvenv/bin/activate
+ 1301  pip install django==1.8 
+ 1302  django-admin startproject mysite .
+ 1303  python manage.py migrate
+ 1304  python manage.py runserver
+ 1305  python manage.py makemigrations blog
+ 1306  python manage.py makemigrations blog. 
+ 1307  python manage.py makemigrations blog
+ 1308  python manage.py runserver
+ 1309  python manage.py createsuperuser
+ 1310  python manage.py runserver
+ 1311  cd
+ 1312  source myvenv/bin/activate
+ 1313  django-admin startproject mysite .
+ 1314  cd djangogirls
+ 1315  git init
+ 1316  git config user.name Mery
+ 1317  git config user.email  admin@admin.com 
+ 1318  git status
+ 1319  git commit -m "Mi app Django Girls, primer commit"
+ 1320  git remote add origin https://github.com/<your-github-username>/My-firts-Blog.git
+ 1321  git remote add origin https://github.com/merymolina/my-first-blog.git
+ 1322  git push -u origin master
+ 1323  git remote add origin https://github.com/merymolina/My-firts-Blog.git
+ 1324  git push -u origin master
+ 1325  git remote add origin https://github.com/merymolina/My-firts-Blog.git
+ 1326  git push -u origin master
+ 1327  cd djangogirls
+ 1328  django-admin startproject mysite .
+ 1329  source myvenv/bin/activate
+ 1330  git remote add origin https://github.com/merymolina/my-first-blog.git
+ 1331  git push -u origin master
+ 1332  whomi
+ 1333  whoami
+ 1334  pwd
+ 1335  ls
+ 1336  cd Escritorio
+ 1337  ls
+ 1338  cd Escriotrio
+ 1339  cd Escritorio
+ 1340  mkdir djangogirls
+ 1341  ls
+ 1342  cd djangogirls
+ 1343  mkdir test
+ 1344  ls
+ 1345  cd..
+ 1346  cd ..
+ 1347  pwd
+ 1348  rm -r djangogirls
+ 1349  ls
+ 1350  exit
+ 1351  mkdir djangogirls
+ 1352  cd djangogirl
+ 1353  cd djangogirls
+ 1354  python3 -m venv myvenv
+ 1355  python3
+ 1356  sudo python3 -m venv myvenv
+ 1357  sudo apt-get install python3-venv 
+ 1358  sudo update
+ 1359  sudo apt update
+ 1360  sudo apt-get install python3-venv 
+ 1361  python
+ 1362  sudo apt install python-virtualenv
+ 1363  virtualenv --python=python3.4 myvenv
+ 1364  sudo apt-get install python3-venv 
+ 1365  ls
+ 1366  cd djangogirls
+ 1367  ls
+ 1368  cd myvenv
+ 1369  ls
+ 1370  cd ..
+ 1371  sl
+ 1372  ls
+ 1373  . myvenv/bin/activate
+ 1374  pip install django==1.8
+ 1375  The virtual environment was not created successfully because ensurepip is not
+ 1376  available.  On Debian/Ubuntu systems, you need to install the python3-venv
+ 1377  package using the following command.
+ 1378  You may need to use sudo with that command.  After installing the python3-venv
+ 1379  django-admin.py
+ 1380  django-admin startproject mysite
+ 1381  django-admin startproject mysite .
+ 1382  source myvenv/bin/activate
+ 1383  django-admin startproject mysite
+ 1384  django-admin startproject mysite .
+ 1385  cd djangogirls
+ 1386  django-admin startproject mysite .
+ 1387  ls
+ 1388  cd mysite
+ 1389  ls
+ 1390  sudo gedit settings.py
+ 1391  ls
+ 1392  cd ..
+ 1393  ls
+ 1394  python manage.py migrate
+ 1395  python manage.py runserver
+ 1396  sudo apt install postgresql
+ 1397  sudo su postgresql
+ 1398  su postgresql
+ 1399  sudo su postgres
+ 1400  sudo pip install virtualenv
+ 1401  ls
+ 1402  mkdir ~/myproject
+ 1403  ls
+ 1404  cd ~/myproject
+ 1405  ls
+ 1406  virtualenv myprojectenv
+ 1407  source myprojectenv/bin/activate
+ 1408  pip install django psycopg2
+ 1409  django-admin.py startproject myproject .
+ 1410  nano ~/myproject/myproject/settings.py
+ 1411  gedit ~/myproject/myproject/settings.py
+ 1412  cd ~/myproject
+ 1413  python manage.py makemigrations
+ 1414  exit()
+ 1415  exit
+ 1416  sudo su postgrel
+ 1417  ls
+ 1418  cd ~/myproject
+ 1419  python manage.py makemigrations
+ 1420  source myprojectenv/bin/activate
+ 1421  ls
+ 1422  cd myproject
+ 1423  ls
+ 1424  cd ..
+ 1425  ls
+ 1426  python manage.py makemigrations
+ 1427  python manage.py migrate
+ 1428  python manage.py createsuperuser
+ 1429  python manage.py runserver 0.0.0.0:8000
+ 1430  python manage.py runserver 124.0.0.1:8001
+ 1431  python manage.py runserver 0.0.0.0:8000
+ 1432  ls
+ 1433  manage.py startapp blog
+ 1434  python manage.py startapp blog
+ 1435  ls
+ 1436  cd blog
+ 1437  ls
+ 1438  cd ..
+ 1439  ls
+ 1440  cd myproject
+ 1441  ls
+ 1442  cd..
+ 1443  cd ..
+ 1444  ls
+ 1445  python manage.py runserver 0.0.0.0:8000
+ 1446  source myprojectenv/bin/activate
+ 1447  ls
+ 1448  cd myproject
+ 1449  source myprojectenv/bin/activate
+ 1450  python manage.py runserver 0.0.0.0:8000
+ 1451  history >> proyecto.txt
+ 1452  python
+ 1453  sudo
+ 1454  su
+ 1455  sudo setxkbmap -layout 'es,es' -model pc105
+ 1456  python
+ 1457  sudo su postgres
+ 1458  cd server
+ 1459  mkdir django
+ 1460  cd django
+ 1461  mkdir final
+ 1462  cd final
+ 1463  python3 -m venv myvenv
+ 1464  source myvenv/bin/activate
+ 1465  psql
+ 1466  sudo su postgres
+ 1467  sudo apt-get install python3-virtualenv
+ 1468  python3 -m venv myvenv
+ 1469  source myvenv/bin/activate
+ 1470  pip3 install django
+ 1471  pip3 install psycopg2-binary
+ 1472  python manage runserver
+ 1473  python manage.py runserver
+ 1474  cd Descargas/my_proj/
+ 1475  cd ..
+ 1476  cd .
+ 1477  cd 
+ 1478  cd Descargas/
+ 1479  cd my_proj/
+ 1480  source myvenv/bin/activate
+ 1481  python3 -m venv myvenv
+ 1482  source myvenv/bin/activate
+ 1483  pip3 install django
+ 1484  pip3 install psycopg2-binary
+ 1485  python manage.py runserver
+ 1486  cd Descargas
+ 1487  ls web
+ 1488  cd web
+ 1489  sudo su postgres
+ 1490  python3 -m venv myvenv
+ 1491  source myvenv/bin/activate
+ 1492  pip3 install==1.8
+ 1493  pip3 django==1.8
+ 1494  pip3 install django==1.8
+ 1495  pip3 install psycopg2-binary
+ 1496  python manage.py runserver
+ 1497  python manage.py migrate
+ 1498  python manage.py runserver
+ 1499  ls
+ 1500  touch .gitignore
+ 1501  git add --all
+ 1502  git init
+ 1503  git config user.name "valentina"
+ 1504  git config user.email "valentinacisneros156@gmail.com"
+ 1505  git add --all
+ 1506  git commit -m "Mi blog en dejango, primer commit"
+ 1507  git remote add origin https://github.com/valentina3101/TRABAJO_FINAL.git
+ 1508  git push -u origin master
+ 1509  history < trabajo final _08_11.txt
+ 1510  history > trabajo final _08_11.txt
+ 1511  history > trabajofinal _08_11.txt
+ 1512  history > trabajofinal.txt
+ 1513  sudo aptitude search postgres-server-dev
+ 1514  sudo aptitude search postgresql-dev
+ 1515  sudo aptitude search python3
+ 1516  sudo apt install python3-postgresql
+ 1517  sudo apt install libpq-dev
+ 1518  cd Descargas
+ 1519  ls web
+ 1520  cd web
+ 1521  python manage.py runserver
+ 1522  source myvenv/bin/activate
+ 1523  python manage.py runserver
+ 1524  cd Descargas
+ 1525  cd web
+ 1526  source myvenv/bin/activate
+ 1527  python manage.py runserver
+ 1528  python manage.py migrate
+ 1529  cd web
+ 1530  python manage.py makemigrations
+ 1531  ls
+ 1532  cd ..
+ 1533  python manage.py makemigrations
+ 1534* 
+ 1535  python manage.py runserver
+ 1536  history > valentinaa
+ 1537  history > valentinaa.txt
